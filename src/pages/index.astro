@@ -1,48 +1,33 @@
 ---
-import "../styles/global.css";
+import MainLayout from "../layouts/MainLayout.astro";
+
+const data = {
+    name: "Oscar Falemara",
+    occupation: "Software Engineer",
+    bio: "Innovative Software Engineer experienced in web development, with the ability to learn new technologies in the rapidly evolving industry. Motivated and disciplined, always learning from mistakes, fearless to failure. I make data-guided decisions using logic and personal experience in order to achieve ideal results.",
+};
 ---
 
-<div class="flex flex-col items-center w-screen h-screen bg-design-two-primary border-y-4 border-solid border-design-two-accent">
-    <div class="w-[1400px] flex flex-col h-screen py-16 max-2xl:w-11/12">
-        <div class="nav flex flex-row w-full justify-between max-md:flex-col-reverse max-md:items-center">
-            <div class="flex flex-row max-md:ml-4 max-md:mt-8">
-                <div class="color-change-icon border-design-two-accent bg-design-two-primary mr-2"></div>
-                <div class="color-change-icon border-design-two-peach bg-design-two-purple mr-2"></div>
-                <div class="color-change-icon border-design-two-teal bg-design-two-carbon mr-2"></div>
-                <div class="color-change-icon border-design-two-turquoise bg-design-two-burgundy mr-2"></div>
-                <div class="color-change-icon border-design-two-dark-purple bg-design-two-carbon mr-2"></div>
-                <div class="color-change-icon border-design-two-teal bg-design-two-dark-blue mr-2"></div>
-            </div>
-            <div class="flex flex-row">
-                <a href="/" class="nav-link text-design-two-accent underline underline-offset-8 decoration-2">About</a>
-                <a href="/" class="nav-link text-white">Projects</a>
-                <a href="/" class="nav-link text-white">Blog</a>
-            </div>
+<MainLayout>
+    <div class="flex flex-col justify-between h-full">
+        <div class="flex flex-col items-center justify-center h-full">
+            <p class="text-8xl max-xl:text-7xl max-lg:text-6xl max-md:text-5xl max-sm:text-4xl max-xs:text-3xl max-2xs:text-2xl text-center title font-black text-white">{data.name}</p>
+            <p class="text-8xl max-xl:text-7xl max-lg:text-6xl max-md:text-5xl max-sm:text-4xl max-xs:text-3xl max-2xs:text-2xl text-center sub-title font-bold text-design-two-accent">{data.occupation}</p>
+            <p class="description mt-16 text-white px-48 max-xl:text-center max-xl:text-sm max-lg:px-24 max-lg:text-xs max-md:px-12 max-md:text-center max-sm:text-2xs max-sm:px-4 max-2xs:text-tiny">{data.bio}</p>
         </div>
-        <div class="flex flex-col justify-between h-full mt-48 max-xl:mt-36 max-xs:mt-24">
-            <div class="flex flex-col items-center">
-                <p class="text-8xl max-xl:text-7xl max-lg:text-6xl max-md:text-5xl max-sm:text-4xl max-xs:text-3xl max-2xs:text-2xl text-center title font-black text-white">Oscar Falemara</p>
-                <p class="text-8xl max-xl:text-7xl max-lg:text-6xl max-md:text-5xl max-sm:text-4xl max-xs:text-3xl max-2xs:text-2xl text-center sub-title font-bold text-design-two-accent">Software Engineer</p>
-                <p class="description mt-16 text-white px-48 max-xl:text-center max-xl:text-sm max-lg:px-24 max-lg:text-xs max-md:px-12 max-md:text-center max-sm:text-2xs max-sm:px-4 max-2xs:text-tiny">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates reiciendis earum nostrum, sequi culpa nobis, vitae temporibus officia ut, laudantium debitis eius iste doloremque labore ex. Sed perferendis possimus aspernatur consequatur ipsam expedita delectus ipsum nam dignissimos, laboriosam mollitia, vero quasi quidem omnis ducimus beatae eaque.</p>
-            </div>
-            <div class="flex flex-row w-full justify-center">
-                <div class="socials flex flex-row mt-2">
-                    <a href="/" class="social-icon"><img src="/icons/twitter.svg" alt="twitter" /></a>
-                    <a href="/" class="social-icon"><img src="/icons/github.svg" alt="github" /></a>
-                    <a href="/" class="social-icon"><img src="/icons/linkedin.svg" alt="linkedin" /></a>
-                </div>
+        <div class="flex flex-row w-full justify-center">
+            <div class="socials flex flex-row mt-2">
+                <a href="/" class="social-icon"><img src="/icons/twitter.svg" alt="twitter" /></a>
+                <a href="/" class="social-icon"><img src="/icons/github.svg" alt="github" /></a>
+                <a href="/" class="social-icon"><img src="/icons/linkedin.svg" alt="linkedin" /></a>
             </div>
         </div>
     </div>
-</div>
+</MainLayout>
 
 <style>
     * {
         font-family: 'Prosto One', cursive;
-    }
-
-    .nav-link {
-        @apply font-black ml-4 text-xl;
     }
 
     .social-icon {
@@ -88,11 +73,6 @@ import "../styles/global.css";
             transform: translateX(0%);
             opacity: 1;
         }
-    }
-
-    .nav {
-        opacity: 0;
-        animation: slide-from-top 1s forwards 0.8s;
     }
 
     @keyframes slide-from-bottom {
