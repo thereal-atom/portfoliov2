@@ -8,22 +8,43 @@ const data = {
 };
 ---
 
-<MainLayout>
-    <div class="flex flex-col justify-between h-full">
-        <div class="flex flex-col items-center justify-center h-full">
-            <p class="text-8xl max-xl:text-7xl max-lg:text-6xl max-md:text-5xl max-sm:text-4xl max-xs:text-3xl max-2xs:text-2xl text-center title font-black text-white">{data.name}</p>
-            <p class="text-8xl max-xl:text-7xl max-lg:text-6xl max-md:text-5xl max-sm:text-4xl max-xs:text-3xl max-2xs:text-2xl text-center sub-title font-bold text-design-two-accent">{data.occupation}</p>
-            <p class="description mt-16 text-white px-48 max-xl:text-center max-xl:text-sm max-lg:px-24 max-lg:text-xs max-md:px-12 max-md:text-center max-sm:text-2xs max-sm:px-4 max-2xs:text-tiny">{data.bio}</p>
-        </div>
-        <div class="flex flex-row w-full justify-center">
-            <div class="socials flex flex-row mt-2">
-                <a href="/" class="social-icon"><img src="/icons/twitter.svg" alt="twitter" /></a>
-                <a href="/" class="social-icon"><img src="/icons/github.svg" alt="github" /></a>
-                <a href="/" class="social-icon"><img src="/icons/linkedin.svg" alt="linkedin" /></a>
+<html lang="en">
+    <head>
+        <!-- buy me a coffee -->
+        <script
+            data-name="BMC-Widget"
+            data-cfasync="false"
+            src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
+            data-id="oscarfal"
+            data-description="Support me on Buy me a coffee!"
+            data-message="Thanks alot!"
+            data-color="#c9bdaf"
+            data-position="Right"
+            data-x_margin="48"
+            data-y_margin="48"
+        ></script>
+    </head>
+    <main>
+        <MainLayout>
+            <div class="flex flex-col justify-between h-full">
+                <div class="flex flex-col items-center justify-center h-full">
+                    <p class="text-8xl max-xl:text-7xl max-lg:text-6xl max-md:text-5xl max-sm:text-4xl max-xs:text-3xl max-2xs:text-2xl text-center title font-black text-white">{data.name}</p>
+                    <p class="text-8xl max-xl:text-7xl max-lg:text-6xl max-md:text-5xl max-sm:text-4xl max-xs:text-3xl max-2xs:text-2xl text-center sub-title font-bold text-design-two-accent">{data.occupation}</p>
+                    <p class="description mt-16 text-white px-48 max-xl:text-center max-xl:text-sm max-lg:px-24 max-lg:text-xs max-md:px-12 max-md:text-center max-sm:text-2xs max-sm:px-4 max-2xs:text-tiny">{data.bio}</p>
+                </div>
+                <div class="flex flex-row w-full justify-center">
+                    <div class="socials flex flex-row mt-2">
+                        <a href="https://twitter.com/oscarfalll" class="social-icon"><img src="/icons/twitter.svg" alt="twitter" /></a>
+                        <a href="https://github.com/thereal-atom" class="social-icon"><img src="/icons/github.svg" alt="github" /></a>
+                        <a href="https://linkedin.com/in/oscarfalemara" class="social-icon"><img src="/icons/linkedin.svg" alt="linkedin" /></a>
+                        <a href="https://buymeacoffee.com/oscarfal" class="social-icon"><img src="/icons/buymeacoffee.svg" alt="buymeacoffee" /></a>
+                        <a href="https://discord.gg/jVsEnqXY" class="social-icon"><img src="/icons/discord.svg" alt="discord" /></a>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-</MainLayout>
+        </MainLayout>
+    </main>
+</html>
 
 <style>
     * {
