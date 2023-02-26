@@ -1,65 +1,72 @@
-# Astro Starter Kit: Blog
+# oscar falemara
 
-```
-npm create astro@latest -- --template blog
-```
+Welcome to my portfolio.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/blog)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/s/github/withastro/astro/tree/latest/examples/blog)
+I'm a 16 year old, self-taught, full-stack web developer with over 2 years of experience. I code in Typescript and use Node.js, express.js, tRPC, SvelteKit, Tailwind, Python, Django, Rust, Next.js and more. Along with web, I am learning systems engineering, machine learning and DevOps.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+I am currently open to contributing to a project or joining a team part time (I still go to school) as a web developer or systems engineer (anything really). I am also open to freelance work. Contact me to request my resume.
 
+**Contact me**
 
-![blog](https://user-images.githubusercontent.com/4677417/186189140-4ef17aac-c3c9-4918-a8c2-ce86ba1bb394.png)
+- Twitter: [@oscarfalll](https://twitter.com/oscarfalll)
+- GitHub: [thereal-atom](https://github.com/thereal-atom)
+- Hashnode: [oscarfal](oscarfal.hashnode.dev)
+- Discord [Server](https://discord.com/invite/jVsEnqXY)
+- Linked In: [oscarfalemara](https://linkedin.com/in/oscarfalemara)
+- Buy Me a Coffee: [oscarfal](https://www.buymeacoffee.com/oscarfal)
+- Email: [oscarafal2006@gmail.com](mailto:oscarafal2006@gmail.com)
+- Resume: Contact Me
 
-Features:
+# projects
 
-- ✅ Minimal styling (make it your own!)
-- ✅ 100/100 Lighthouse performance
-- ✅ SEO-friendly with canonical URLs and OpenGraph data
-- ✅ Sitemap support
-- ✅ RSS Feed support
-- ✅ Markdown & MDX support
+### promess
 
-## 🚀 Project Structure
+![promess](https://i.ibb.co/bLtbVkJ/Screenshot-20230226-151013.png)
 
-Inside of your Astro project, you'll see the following folders and files:
+Promess is a project management software with focus on SaaS businesses. Promess brings together all your project management needs into one dashboard: tasks, files, chat, calendar, analytics, revenue, metrics and more.
 
-```
-├── public/
-├── src/
-│   ├── components/
-│   ├── layouts/
-│   └── pages/
-├── astro.config.mjs
-├── README.md
-├── package.json
-└── tsconfig.json
-```
+**Stack**
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+- SvelteKit
+- tRPC
+- TailwindCSS
+- Prisma
+- Planetscale
+- Typescript
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+[Live](https://promess.vercel.app)
+[Code](https://github.com/promesstech)
 
-Any static assets, like images, can be placed in the `public/` directory.
+### Artificial Neural Network Implementation
 
-## 🧞 Commands
+![ann-implementation](https://i.ibb.co/CtND0XB/Screenshot-20230226-144810.png)
 
-All commands are run from the root of the project, from a terminal:
+This is the an implementation of an artificial neural network in Rust (originally in TypeScript). Using calculus and linear algebra, I coded up a simple neural network from scratch. It’s not the most performant, but it taught me about the  mathematical principals that go into create a neural network.
 
-| Command                | Action                                           |
-| :--------------------- | :----------------------------------------------- |
-| `npm install`          | Installs dependencies                            |
-| `npm run dev`          | Starts local dev server at `localhost:3000`      |
-| `npm run build`        | Build your production site to `./dist/`          |
-| `npm run preview`      | Preview your build locally, before deploying     |
-| `npm run astro ...`    | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro --help` | Get help using the Astro CLI                     |
+I wrote an article about this project [here](https://oscarfal.hashnode.dev)
 
-## 👀 Want to learn more?
+**Stack**
 
-Check out [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- Rust
+- Typescript
 
-## Credit
+[Code](https://github.com/thereal-atom/nn-implementation)
 
-This theme is based off of the lovely [Bear Blog](https://github.com/HermanMartinus/bearblog/).
+# skills
+
+My primary programming language is Typescript but I am also proficient in:
+
+- Python
+- Rust
+- HTML
+- CSS
+- Javascript
+
+I am primarily a back-end web developer (Node.JS, express.js, tRPC, Django) but I have many other skills:
+
+- UI/UX Design (Figma)
+- Front-end web development (SvelteKit, TailwindCSS)
+- DevOps (Google Cloud Platform, Docker, Watchtower, GitHub actions, Railway)
+- Database Administration (Planetscale, MongoDB, Redis, Prisma)
+- General technical skills (Git, GitHub, VS Code, Bash Scripting, Linux)
+- Business management (Copywriting, Marketing, Operations, Finance, Customer Service)
