@@ -34,8 +34,9 @@ Promess is a project management software with focus on SaaS businesses. Promess 
 - Planetscale
 - Typescript
 
-[Live](https://promess.vercel.app)
-[Code](https://github.com/promesstech)
+[Live URL](https://promess.vercel.app)
+
+[Source Code](https://github.com/promesstech)
 
 ### Artificial Neural Network Implementation
 
@@ -50,7 +51,7 @@ I wrote an article about this project [here](https://oscarfal.hashnode.dev)
 - Rust
 - Typescript
 
-[Code](https://github.com/thereal-atom/nn-implementation)
+[Source Code](https://github.com/thereal-atom/nn-implementation)
 
 # skills
 
@@ -68,5 +69,6 @@ I am primarily a back-end web developer (Node.JS, express.js, tRPC, Django) but 
 - Front-end web development (SvelteKit, TailwindCSS)
 - DevOps (Google Cloud Platform, Docker, Watchtower, GitHub actions, Railway)
 - Database Administration (Planetscale, MongoDB, Redis, Prisma)
+- Systems Engineering (Rust, Assembly)
 - General technical skills (Git, GitHub, VS Code, Bash Scripting, Linux)
 - Business management (Copywriting, Marketing, Operations, Finance, Customer Service)
