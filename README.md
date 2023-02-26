@@ -8,10 +8,11 @@ I am currently open to contributing to a project or joining a team part time (I 
 
 **Contact me**
 
+- Portfolio (here): [oscarfal.vercel.app](https://oscarfal.vercel.app)
 - Twitter: [@oscarfalll](https://twitter.com/oscarfalll)
 - GitHub: [thereal-atom](https://github.com/thereal-atom)
 - Hashnode: [oscarfal](oscarfal.hashnode.dev)
-- Discord [Server](https://discord.com/invite/jVsEnqXY)
+- Discord [Server](https://discord.com/invite/jVsEnqXY), oscarッ#6969
 - Linked In: [oscarfalemara](https://linkedin.com/in/oscarfalemara)
 - Buy Me a Coffee: [oscarfal](https://www.buymeacoffee.com/oscarfal)
 - Email: [oscarafal2006@gmail.com](mailto:oscarafal2006@gmail.com)
@@ -66,7 +67,7 @@ My primary programming language is Typescript but I am also proficient in:
 I am primarily a back-end web developer (Node.JS, express.js, tRPC, Django) but I have many other skills:
 
 - UI/UX Design (Figma)
-- Front-end web development (SvelteKit, TailwindCSS)
+- Front-end web development (SvelteKit, TailwindCSS, Astro)
 - DevOps (Google Cloud Platform, Docker, Watchtower, GitHub actions, Railway)
 - Database Administration (Planetscale, MongoDB, Redis, Prisma)
 - Systems Engineering (Rust, Assembly)
