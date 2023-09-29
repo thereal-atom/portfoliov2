@@ -1,8 +1,50 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro";
 ---
+
 <MainLayout>
-    <div class="flex flex-col items-center justify-center h-full">
-        <h1 class="text-6xl text-white">Under Construction</h1>
+    <div class="flex flex-col mt-8 pl-12 pb-8">
+        <h1 class="font-bold text-3xl">Skills</h1>
+        <h3 class="mt-4 font-bold text-lg">Langauges</h3>
+        <div class="skills flex flex-row flex-wrap">
+            <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" /> Typescript</div>
+            <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> Javascript</div>
+            <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" /> HTML</div>
+            <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /> Python</div>
+            <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" /> CSS</div>
+            <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> Rust</div>
+        </div>
+        <h3 class="font-bold text-lg mt-2">Frameworks</h3>
+        <div class="skills flex flex-row flex-wrap">
+            <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg" /> Sveltekit</div>
+            <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" /> Node.JS</div>
+            <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" /> Tailwind</div>
+            <div class="skill"><img src="/skills/astro.svg" /> Astro</div>
+            <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" /> express.js</div>
+            <div class="skill"><img src="/skills/prisma.svg" /> Prisma</div>
+            <div class="skill"><img src="/skills/trpc.svg" /> tRPC</div>
+        </div>
+        <h3 class="font-bold text-lg mt-2">Tools</h3>
+        <div class="skills flex flex-row flex-wrap">
+            <div class="skill"><img src="/skills/supabase.svg" /> Supabase</div>
+            <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" /> Figma</div>
+            <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain.svg" /> Docker</div>
+            <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" /> Google Cloud</div>
+            <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> GitHub</div>
+            <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" /> Git</div>
+            <div class="skill"><img src="/skills/planetscale.svg" /> Planetscale</div>
+            <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" /> VS Code</div>
+            <div class="skill"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" /> Linux</div>
+        </div>
     </div>
 </MainLayout>
+
+<style>
+    .skill {
+        @apply flex flex-row font-bold items-center bg-[#262322] text-xs rounded-md p-2 mr-2 mt-2;
+    }
+
+    .skills img {
+        @apply w-4  mr-2;
+    }
+</style>

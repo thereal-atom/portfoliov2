@@ -1,138 +1,17 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro";
-
-const data = {
-    name: "Oscar Falemara",
-    occupation: "Software Engineer",
-    bio: "Innovative Software Engineer experienced in web development, with the ability to learn new technologies in the rapidly evolving industry. Motivated and disciplined, always learning from mistakes, fearless to failure. I make data-guided decisions using logic and personal experience in order to achieve ideal results.",
-};
 ---
 
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <link rel="icon" href="/favicon.jpg" />
-		<meta name="viewport" content="width=device-width" />
-
-        <!-- Primary Meta Tags -->
-        <title>Oscar Falemara - Software Engineer</title>
-        <meta name="title" content="Oscar Falemara - Software Engineer">
-        <meta name="description" content="I'm a 16 year old, self-taught, full-stack web developer with over 2 years of experience. I code in Typescript and use Node.js, express.js, tRPC, SvelteKit, Tailwind, Python, Django, Rust, Next.js and more.">
-
-        <!-- Open Graph / Facebook -->
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="https://oscarfal.vercel.app/">
-        <meta property="og:title" content="Oscar Falemara - Software Engineer">
-        <meta property="og:description" content="I'm a 16 year old, self-taught, full-stack web developer with over 2 years of experience. I code in Typescript and use Node.js, express.js, tRPC, SvelteKit, Tailwind, Python, Django, Rust, Next.js and more.">
-        <meta property="og:image" content="/metatags-banner.png">
-
-        <!-- Twitter -->
-        <meta property="twitter:card" content="summary_large_image">
-        <meta property="twitter:url" content="https://oscarfal.vercel.app/">
-        <meta property="twitter:title" content="Oscar Falemara - Software Engineer">
-        <meta property="twitter:description" content="I'm a 16 year old, self-taught, full-stack web developer with over 2 years of experience. I code in Typescript and use Node.js, express.js, tRPC, SvelteKit, Tailwind, Python, Django, Rust, Next.js and more.">
-        <meta property="twitter:image" content="/metatags-banner.png">
-
-
-        <!-- buy me a coffee -->
-        <!-- <script
-            data-name="BMC-Widget"
-            data-cfasync="false"
-            src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
-            data-id="oscarfal"
-            data-description="Support me on Buy me a coffee!"
-            data-message="Thanks alot!"
-            data-color="#c9bdaf"
-            data-position="Right"
-            data-x_margin="48"
-            data-y_margin="48"
-        ></script> -->
-    </head>
-    <main>
-        <MainLayout>
-            <div class="flex flex-col justify-between h-full">
-                <div class="flex flex-col items-center justify-center h-full">
-                    <p class="text-8xl max-xl:text-7xl max-lg:text-6xl max-md:text-5xl max-sm:text-4xl max-xs:text-3xl max-2xs:text-2xl text-center title font-black text-white">{data.name}</p>
-                    <p class="text-8xl max-xl:text-7xl max-lg:text-6xl max-md:text-5xl max-sm:text-4xl max-xs:text-3xl max-2xs:text-2xl text-center sub-title font-bold text-design-two-accent">{data.occupation}</p>
-                    <p class="description mt-16 text-white px-48 max-xl:text-center max-xl:text-sm max-lg:px-24 max-lg:text-xs max-md:px-12 max-md:text-center max-sm:text-2xs max-sm:px-4 max-2xs:text-tiny">{data.bio}</p>
-                </div>
-                <div class="flex flex-row w-full justify-center">
-                    <div class="socials flex flex-row">
-                        <a href="https://twitter.com/oscarfalll" class="social-icon"><img src="/icons/twitter.svg" alt="twitter" /></a>
-                        <a href="https://github.com/thereal-atom" class="social-icon"><img src="/icons/github.svg" alt="github" /></a>
-                        <a href="https://linkedin.com/in/oscarfalemara" class="social-icon"><img src="/icons/linkedin.svg" alt="linkedin" /></a>
-                        <a href="https://buymeacoffee.com/oscarfal" class="social-icon"><img src="/icons/buymeacoffee.svg" alt="buymeacoffee" /></a>
-                        <a href="https://discord.gg/jVsEnqXY" class="social-icon"><img src="/icons/discord.svg" alt="discord" /></a>
-                    </div>
-                </div>
-            </div>
-        </MainLayout>
-    </main>
-</html>
-
-<style>
-    * {
-        font-family: 'Prosto One', cursive;
-    }
-
-    .social-icon {
-        @apply mx-2;
-    }
-
-    .color-change-icon {
-        @apply w-8 h-8 rounded-full border-2 border-solid hover:cursor-pointer;
-    }
-
-    @keyframes slide-from-left {
-        0% {
-            transform: translateX(-40%);
-            opacity: 0;
-        }
-        100% {
-            transform: translateX(0%);
-            opacity: 1;
-        }
-    }
-
-    .title {
-        opacity: 0;
-        animation: slide-from-top 0.5s forwards 0.1s;
-    }
-
-    .sub-title {
-        opacity: 0;
-        animation: slide-from-top 0.5s forwards 0.3s;
-    }
-
-    .description {
-        opacity: 0;
-        animation: slide-from-top 0.5s forwards 0.6s;
-    }
-
-    @keyframes slide-from-top {
-        0% {
-            transform: translateY(-40%);
-            opacity: 0;
-        }
-        100% {
-            transform: translateX(0%);
-            opacity: 1;
-        }
-    }
-
-    @keyframes slide-from-bottom {
-        0% {
-            transform: translateY(40%);
-            opacity: 0;
-        }
-        100% {
-            transform: translateX(0%);
-            opacity: 1;
-        }
-    }
-
-    .socials {
-        opacity: 0;
-        animation: slide-from-bottom 1s forwards 0.8s;
-    }
-</style>
+<MainLayout>
+    <div class="flex flex-col mt-8 px-12 w-full overflow-y-scroll pb-4">
+        <p class="w-full py-2 rounded-md text-center font-bold bg-[#262322]">"Life's too short to waste a minute"</p>
+        <div class="flex flex-col mt-8">
+            <h3 class="font-bold text-lg">About Me</h3>
+            <p class="text-sm mt-4 text-[#F1DAC4] font-semibold">
+                I'm a 17-year-old full-stack web developer and entrepreneur from London with 3 years of experience crafting high quality websites for many clients. I am supremely well versed in Typescript, Node.js, HTML, Tailwind, SvelteKit, Supabase and many more tools and frameworks. I learn quick and I'm always looking to learn more.
+                <br /> <br /> I am also interested in other aspects of computing like machine learning, networking, cybersecurtiy, systems engineering and more.
+                <br /> <br /> Read more about the things I'm good at <a class="text-white font-bold" href="/skills">here</a>.
+            </p>
+        </div>
+    </div>
+</MainLayout>
