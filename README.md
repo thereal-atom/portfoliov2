@@ -2,7 +2,7 @@
 
 Welcome to my portfolio.
 
-I'm a 16 year old, self-taught, full-stack web developer with over 2 years of experience. I code in Typescript and use Node.js, express.js, tRPC, SvelteKit, Tailwind, Python, Django, Rust, Next.js and more. Along with web, I am learning systems engineering, machine learning and DevOps.
+I'm a 17 year old, self-taught, full-stack web developer with over 2 years of experience. I code in Typescript and use Node.js, express.js, tRPC, SvelteKit, Tailwind, Python, Django, Rust, Next.js and more. Along with web, I am learning systems engineering, machine learning and DevOps.
 
 I am currently open to contributing to a project or joining a team part time (I still go to school) as a web developer or systems engineer (anything really). I am also open to freelance work. Contact me to request my resume.
 
