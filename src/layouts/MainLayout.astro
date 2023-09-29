@@ -52,23 +52,23 @@ import "../styles/global.css";
                     src="/banner.png"
                     alt="banner"
                 />
-                <div class="flex items-center justify-center w-full h-auto mt-16">
-                    <div class="flex flex-row w-5/6 h-fit bg-[#262322] bg-opacity-60 rounded-xl">
+                <div class="flex items-center justify-center w-full h-auto max-sm:h-full mt-16">
+                    <div class="flex flex-row w-5/6 h-fit bg-[#262322] bg-opacity-60 rounded-xl max-sm:h-full">
                         <nav class="flex flex-col py-16">
                             <a
-                                class="font-bold text-2xl px-4 py-2 rounded-md text-center -rotate-90"
+                                class=""
                                 href="/"
                             >
                                 About
                             </a>
                             <a
-                                class="font-bold text-2xl px-4 py-2 rounded-md text-center -rotate-90 mt-16"
+                                class="mt-16"
                                 href="/skills"
                             >
                                 Skills
                             </a>
                             <a
-                                class="font-bold text-2xl px-4 py-2 rounded-md text-center -rotate-90 mt-16"
+                                class="mt-16"
                                 href="https://github.com/thereal-atom"
                             >
                                 Projects
@@ -78,7 +78,7 @@ import "../styles/global.css";
                         <slot />
                     </div>
                 </div>
-                <div class="socials flex flex-row mt-4 bg-[#262322] bg-opacity-60 p-2 rounded-md">
+                <div class="socials flex flex-row mt-4 bg-[#262322] bg-opacity-60 p-2 rounded-md max-sm mb-8">
                     <img
                         src="/socials/twitter.svg"
                         alt="twitter"
@@ -115,6 +115,10 @@ import "../styles/global.css";
 
     * {
         font-family: 'Nunito Sans', sans-serif;
+    }
+
+    nav a {
+        @apply font-bold text-2xl px-4 py-2 rounded-md text-center -rotate-90 max-sm:text-sm max-sm:px-1;
     }
 
     a.active {

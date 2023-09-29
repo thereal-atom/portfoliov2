@@ -3,9 +3,9 @@ import MainLayout from "../layouts/MainLayout.astro";
 ---
 
 <MainLayout>
-    <div class="flex flex-col mt-8 pl-12 pb-8">
+    <div class="flex flex-col mt-8 pl-12 pb-8 max-sm:pl-4">
         <h1 class="font-bold text-3xl">Skills</h1>
-        <h3 class="mt-4 font-bold text-lg">Langauges</h3>
+        <h3 class="skill-title mt-4">Langauges</h3>
         <div class="skills flex flex-row flex-wrap">
             <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" /> Typescript</div>
             <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> Javascript</div>
@@ -14,7 +14,7 @@ import MainLayout from "../layouts/MainLayout.astro";
             <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" /> CSS</div>
             <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> Rust</div>
         </div>
-        <h3 class="font-bold text-lg mt-2">Frameworks</h3>
+        <h3 class="skill-title">Frameworks</h3>
         <div class="skills flex flex-row flex-wrap">
             <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg" /> Sveltekit</div>
             <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" /> Node.JS</div>
@@ -24,7 +24,7 @@ import MainLayout from "../layouts/MainLayout.astro";
             <div class="skill"><img src="/skills/prisma.svg" /> Prisma</div>
             <div class="skill"><img src="/skills/trpc.svg" /> tRPC</div>
         </div>
-        <h3 class="font-bold text-lg mt-2">Tools</h3>
+        <h3 class="skill-title mt-2">Tools</h3>
         <div class="skills flex flex-row flex-wrap">
             <div class="skill"><img src="/skills/supabase.svg" /> Supabase</div>
             <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" /> Figma</div>
@@ -42,10 +42,14 @@ import MainLayout from "../layouts/MainLayout.astro";
 
 <style>
     .skill {
-        @apply flex flex-row font-bold items-center bg-[#262322] text-xs rounded-md p-2 mr-2 mt-2;
+        @apply flex flex-row font-bold items-center bg-[#262322] text-xs rounded-md p-2 mr-2 mt-2 max-sm:text-2xs max-sm:py-1;
     }
 
     .skills img {
-        @apply w-4  mr-2;
+        @apply w-4 mr-2 max-sm:w-3;
+    }
+
+    .skill-title {
+        @apply font-bold text-lg mt-2 max-sm:text-sm;
     }
 </style>
